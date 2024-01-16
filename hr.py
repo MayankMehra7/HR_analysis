@@ -5,7 +5,7 @@ import seaborn as sns
 import warnings
 warnings.filterwarnings('ignore')
 
-df = pd.read_csv("C:/Users/MAYANK/Downloads/MLSA/Employee_HR.csv") # load training
+df = pd.read_csv("Employee_HR.csv") # load training
 print(df.columns)
 print(df.isnull().sum().sum())
 
